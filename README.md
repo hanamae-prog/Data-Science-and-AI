@@ -74,6 +74,11 @@ May not handle complex relationships in the data as effectively. The decision to
 Table _. Logistic Regression performance evaluation
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/56e24984-5469-4ab2-8938-da2a7d56230f)
 
+
+
+
+
+
 **Support Vector Machine (SVM):**
 Strengths:
 The SVM model achieved a moderate accuracy of 0.65 on the test dataset. While it is not the highest accuracy among the models used, it suggests a reasonable ability to make correct predictions with potential for improvement. The SVM model also provides flexibility with different kernel functions which are versatile and can handle different types of relationships between features and classes by using various kernel functions and capture more complex data.
@@ -85,7 +90,10 @@ Table _. Support Vector Machine (SVM) classification results
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/bb2c8e49-6a4b-4168-94e8-26ee9d5ef540)
 
 
-Decision Tree:
+
+
+
+**Decision Tree:**
 Strengths:
 Decision Trees have a straightforward and intuitive structure. The decision-making process is similar to a flowchart which makes it easy to understand with its simple and interpretable model. Decision Trees are capable of capturing complex, non-linear relationships within the data. They can identify decision boundaries that aren't necessarily linear, making them suitable for datasets with intricate patterns.
 
@@ -96,6 +104,9 @@ Table _. Decision Tree classification results
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/1b0d7254-7f26-4075-9fa4-209fe6127427)
 
 
+
+
+
 **Random Forest:**
 Strengths:
 Random Forest is a group model that builds multiple decision trees and combines their predictions. This group approach often leads to better accuracy compared to individual decision trees, making it a somewhat better model used in this particular dataset. The model aggregates the predictions of multiple trees, where the model tends to generalize well to unseen data, improving the model's overall performance as compared to the Decision Tree model.
@@ -104,6 +115,10 @@ Weaknesses:
 This model is a group of many decision trees and is more complex than a single decision tree. While it offers improved predictive performance, the interpretability of the model diminishes. Understanding the specific decision-making process of a Random Forest model becomes challenging due to the combined output of numerous trees. 
 Table _. Random Forest classification results
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/071cc037-d2d1-4229-aacf-4bc62f183598)
+
+
+
+
 
 
 # Conclusion

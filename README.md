@@ -50,7 +50,7 @@ Finally, in the model evaluation phase, a comparative analysis is conducted to d
 # Data and Results (Visualization)
 In conducting the capstone assessment regarding the provision of solutions for Malnutrition, the students explored the performance of several models, including Linear Regression, Logistic Regression, Support Vector Machine (SVM), Decision Tree, and Random Forest.
 
-Linear Regression:
+**Linear Regression:**
 Strengths:
 Linear regression provides clear and interpretable coefficients for each feature. This means that it can easily understand the impact of each predictor variable on the target variable. Achieved relatively high R2 values for predicting 'Stunting.' The relatively high R2 for predicting 'Stunting' indicates that the linear regression model performed well in explaining the variation in this specific variable.
 
@@ -60,12 +60,11 @@ The limited performance on other variables suggests that linear regression might
 
 Table _. Linear Regression Testing Results
 LINEAR REGRESSION PAIR PLOT
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d4683204-4bcc-43f8-952e-84cf8a85598f)
 
 
+**Logistic Regression:**
 
-Table _. 
-
-Logistic Regression:
 Strengths:
 Logistic regression is suitable for binary classification tasks. High overall accuracy (0.93) with balanced precision and recall indicating that the model is effective at making correct predictions on the majority of instances. A balanced precision and recall mean that the model performs well in both correctly identifying positive instances (precision) and capturing all actual positive instances (recall).
 
@@ -73,10 +72,7 @@ Weaknesses:
 May not handle complex relationships in the data as effectively. The decision to group the four income classes into two for binary classification using Logistic Regression can simplify the model and make it more interpretable. However, this simplification comes at the cost of potentially losing information present in the original four classes. If the relationships between features and income classes are complex and nonlinear, logistic regression may struggle to capture these nuances effectively.
 
 Table _. Logistic Regression performance evaluation
-LOGISTIC REGRESSION
-
-
-
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/56e24984-5469-4ab2-8938-da2a7d56230f)
 
 **Support Vector Machine (SVM):**
 Strengths:
@@ -85,18 +81,8 @@ The SVM model achieved a moderate accuracy of 0.65 on the test dataset. While it
 Weaknesses:
 The SVM model encountered difficulties when dealing with class imbalances in the dataset. Class imbalances occur when the number of instances in different classes is not roughly equal. In the dataset, the model struggled with this imbalance and affected its performance.
 
-
-
-
-
-
 Table _. Support Vector Machine (SVM) classification results
-SUPPORT VECTOR MACHINE (SVM)
-Classification Report	
-
-Confusion Matrix	
- 
-
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/bb2c8e49-6a4b-4168-94e8-26ee9d5ef540)
 
 
 Decision Tree:
@@ -107,13 +93,7 @@ Weaknesses:
 The Decision Tree model used in the dataset achieved an accuracy of 0.46, which is lower than the accuracies of other models. This indicates that for the given dataset, this model might not have been able to capture the underlying patterns as effectively as other models. This model is also sensitive to noise or outliers in the data affecting its performance.
 
 Table _. Decision Tree classification results
-DECISION TREE
-Classification Report	
-
-Confusion Matrix	
-
-
-
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/1b0d7254-7f26-4075-9fa4-209fe6127427)
 
 
 **Random Forest:**
@@ -123,10 +103,7 @@ Random Forest is a group model that builds multiple decision trees and combines 
 Weaknesses:
 This model is a group of many decision trees and is more complex than a single decision tree. While it offers improved predictive performance, the interpretability of the model diminishes. Understanding the specific decision-making process of a Random Forest model becomes challenging due to the combined output of numerous trees. 
 Table _. Random Forest classification results
-RANDOM FOREST
-Classification Report	
-
-Confusion Matrix	
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/071cc037-d2d1-4229-aacf-4bc62f183598)
 
 
 # Conclusion

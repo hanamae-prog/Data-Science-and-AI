@@ -63,6 +63,10 @@ LINEAR REGRESSION PAIR PLOT
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d4683204-4bcc-43f8-952e-84cf8a85598f)
 
 
+
+
+
+
 **Logistic Regression:**
 
 Strengths:
@@ -70,6 +74,7 @@ Logistic regression is suitable for binary classification tasks. High overall ac
 
 Weaknesses:
 May not handle complex relationships in the data as effectively. The decision to group the four income classes into two for binary classification using Logistic Regression can simplify the model and make it more interpretable. However, this simplification comes at the cost of potentially losing information present in the original four classes. If the relationships between features and income classes are complex and nonlinear, logistic regression may struggle to capture these nuances effectively.
+
 
 Table _. Logistic Regression performance evaluation
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/56e24984-5469-4ab2-8938-da2a7d56230f)
@@ -93,6 +98,8 @@ Table _. Support Vector Machine (SVM) classification results
 
 
 
+
+
 **Decision Tree:**
 Strengths:
 Decision Trees have a straightforward and intuitive structure. The decision-making process is similar to a flowchart which makes it easy to understand with its simple and interpretable model. Decision Trees are capable of capturing complex, non-linear relationships within the data. They can identify decision boundaries that aren't necessarily linear, making them suitable for datasets with intricate patterns.
@@ -100,8 +107,11 @@ Decision Trees have a straightforward and intuitive structure. The decision-maki
 Weaknesses:
 The Decision Tree model used in the dataset achieved an accuracy of 0.46, which is lower than the accuracies of other models. This indicates that for the given dataset, this model might not have been able to capture the underlying patterns as effectively as other models. This model is also sensitive to noise or outliers in the data affecting its performance.
 
+
 Table _. Decision Tree classification results
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/1b0d7254-7f26-4075-9fa4-209fe6127427)
+
+
 
 
 
@@ -113,8 +123,11 @@ Random Forest is a group model that builds multiple decision trees and combines 
 
 Weaknesses:
 This model is a group of many decision trees and is more complex than a single decision tree. While it offers improved predictive performance, the interpretability of the model diminishes. Understanding the specific decision-making process of a Random Forest model becomes challenging due to the combined output of numerous trees. 
+
 Table _. Random Forest classification results
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/071cc037-d2d1-4229-aacf-4bc62f183598)
+
+
 
 
 

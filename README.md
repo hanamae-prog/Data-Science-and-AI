@@ -48,34 +48,49 @@ Link of the shared dataset: https://www.kaggle.com/datasets/ruchi798/malnutritio
 # Objectives
 
 **1.	 Assess the Global Trends in Childhood Malnutrition**
+
 Identify and analyze trends in malnutrition profiles among children aged 0–59 months worldwide. Consider different types of malnutrition and examine whether cases of malnutrition have decreased or increased over the period indicated.
+
 **2.	Identification of Most Prevalent Forms of Malnutrition**
 Determine the most prevalent forms of malnutrition among children aged 0–59 months globally. Focus on severe wasting, wasting, overweight, stunting, and underweight, and analyze the percentage distribution of each type to understand the relative burden of these conditions.**
+
 **3.	Income Classification and Malnutrition Rate****
+
 Explore the correlation between the income classification of countries and the prevalence of malnutrition among children under 5. Investigate whether there are significant differences in the percentage of stunted, overweight, and wasted children based on the income classification of countries.
+
 **4.	Data Quality and Reporting Discrepancies**
+
 Assess the reliability and consistency of malnutrition data reporting across countries. Identify potential challenges and discrepancies in data collection and reporting methods and propose recommendations for improving the accuracy and comparability of global malnutrition statistics.
-5.	Model Evaluation
+
+**5.	Model Evaluation**
 To assess the best forming modelling techniques between linear regression, logistic regression, and classification model.
 
 # Conceptual
+
 To achieve the primary goal of training and evaluating the collected data, our approach involves a series of steps illustrated in Figure 1. Initially, the data undergoes a crucial phase of data preprocessing within the data analysis pipeline. This phase encompasses tasks such as handling missing values, eliminating outliers, and scaling features, contributing to a comprehensive understanding of the dataset's characteristics. Following data preprocessing, we proceed to feature selection, underscoring the importance of retaining informative features for precise predictions while discarding irrelevant and redundant information.
 Subsequently, the dataset undergoes model training, employing linear regression, logistic regression, and classification models. For linear regression, we select independent and dependent variables for each malnutrition classification, taking income classification as the independent variable. We calculate Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE), visualizing the relationship between the independent and dependent variables. Logistic regression is applied due to the categorical nature of the malnutrition dataset. The dataset is split into training and testing sets to implement logistic regression effectively. Additionally, classification models, namely Support Vector Machine (SVM), Decision Tree, and Random Forest, are utilized.
 Finally, in the model evaluation phase, a comparative analysis is conducted to determine the performance of each model technique during training. This comprehensive approach ensures a systematic exploration of various methods, allowing for informed decisions on model selection and optimization.
+
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/0f1ae4ca-1e31-4bba-a36f-baa32da3d780)
 
+
 # Data and Results (Visualization)
+
 In conducting the capstone assessment regarding the provision of solutions for Malnutrition, the students explored the performance of several models, including Linear Regression, Logistic Regression, Support Vector Machine (SVM), Decision Tree, and Random Forest.
 
 **Linear Regression:**
+
 Strengths:
+
 Linear regression provides clear and interpretable coefficients for each feature. This means that it can easily understand the impact of each predictor variable on the target variable. Achieved relatively high R2 values for predicting 'Stunting.' The relatively high R2 for predicting 'Stunting' indicates that the linear regression model performed well in explaining the variation in this specific variable.
 
 Weaknesses:
+
 The limited performance on other variables suggests that linear regression might not have been as effective in capturing the relationships for some of the other variables like 'Severe Wasting,' 'Wasting,' 'Overweight,' and 'Underweight.' Another is that outliers can disproportionately influence the slope and intercept of the regression line, potentially impacting the model's accuracy. Which is why it is imperative to eliminate outliers in the dataset before performing any analysis.
 
 
 Table _. Linear Regression Testing Results
+
 LINEAR REGRESSION PAIR PLOT
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d4683204-4bcc-43f8-952e-84cf8a85598f)
 
@@ -118,6 +133,7 @@ Table _. Support Vector Machine (SVM) classification results
 
 
 **Decision Tree:**
+
 Strengths:
 Decision Trees have a straightforward and intuitive structure. The decision-making process is similar to a flowchart which makes it easy to understand with its simple and interpretable model. Decision Trees are capable of capturing complex, non-linear relationships within the data. They can identify decision boundaries that aren't necessarily linear, making them suitable for datasets with intricate patterns.
 
@@ -135,6 +151,7 @@ Table _. Decision Tree classification results
 
 
 **Random Forest:**
+
 Strengths:
 Random Forest is a group model that builds multiple decision trees and combines their predictions. This group approach often leads to better accuracy compared to individual decision trees, making it a somewhat better model used in this particular dataset. The model aggregates the predictions of multiple trees, where the model tends to generalize well to unseen data, improving the model's overall performance as compared to the Decision Tree model.
 
@@ -152,6 +169,7 @@ Table _. Random Forest classification results
 
 
 # Conclusion
+
 In conclusion, the exploration of malnutrition datasets has unveiled critical insights that a distinct correlation is evident between the classification of income and the prevalence of malnutrition. Generally, nations with lower income levels exhibit higher rates of stunting, wasting, and underweight in comparison to their higher-income counterparts. Specifically, low-income countries experience stunting rates that are five times more pronounced than those in high-income countries. However, the manifestation of overweight cases in high-income contexts adds a layer of complexity to the issue, necessitating attention to both undernutrition and overnutrition across all income strata.
 While strides have been made globally in mitigating stunting, the persistent challenge of wasting and the emergence of overweight create a nuanced and intricate scenario. Effectively addressing childhood malnutrition demands a comprehensive strategy that takes into account income disparities, access to nutritious food, healthcare provisions, and proper sanitation. Further investigation is imperative to discern the intricate factors steering these trends, allowing for the implementation of targeted interventions tailored to specific regions and income categories.
 
@@ -160,6 +178,7 @@ In contrast, concerning the most effective model technique, Logistic Regression 
 Moreover, to improve performance, feature engineering is advised, involving the creation of new variables or extraction of meaningful information. Continuous optimization is crucial for sustained enhancement. The holistic analysis provides insights into global trends, country-specific variations, malnutrition prevalence, socio-economic correlations, and model evaluations. These findings inform evidence-based interventions and policies for addressing childhood malnutrition globally.
 
 # References
+
 [1] 	"World Health Organization," 20 December 2023. [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/malnutrition. [Accessed 11 January 2024].
 [2] 	"World Health Organization," [Online]. Available: https://www.who.int/health-topics/malnutrition#tab=tab_1. [Accessed 11 January 2024].
 [3] 	"Bread For The World," 23 August 2021. [Online]. Available: https://www.bread.org/article/global-malnutrition-fact-sheet-2021/. [Accessed 11 January 2024].

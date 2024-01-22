@@ -90,10 +90,31 @@ Weaknesses:
 The limited performance on other variables suggests that linear regression might not have been as effective in capturing the relationships for some of the other variables like 'Severe Wasting,' 'Wasting,' 'Overweight,' and 'Underweight.' Another is that outliers can disproportionately influence the slope and intercept of the regression line, potentially impacting the model's accuracy. Which is why it is imperative to eliminate outliers in the dataset before performing any analysis.
 
 
-Table _. Linear Regression Testing Results
+Table 1. Linear Regression Testing Results
 
-LINEAR REGRESSION PAIR PLOT
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d4683204-4bcc-43f8-952e-84cf8a85598f)
+
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/982b86d1-4562-4e58-a01b-a8f5ffb600e3)
+
+
+
+
+
+
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/1cf9af44-ba77-4e44-acaf-00b373218628)
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/7affcf08-477e-4573-8dd7-ee723e75bf57)
+
+
+
 
 
 
@@ -109,7 +130,7 @@ Weaknesses:
 May not handle complex relationships in the data as effectively. The decision to group the four income classes into two for binary classification using Logistic Regression can simplify the model and make it more interpretable. However, this simplification comes at the cost of potentially losing information present in the original four classes. If the relationships between features and income classes are complex and nonlinear, logistic regression may struggle to capture these nuances effectively.
 
 
-Table _. Logistic Regression performance evaluation
+Table 2. Logistic Regression performance evaluation
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/56e24984-5469-4ab2-8938-da2a7d56230f)
 
 
@@ -142,8 +163,12 @@ Weaknesses:
 The Decision Tree model used in the dataset achieved an accuracy of 0.46, which is lower than the accuracies of other models. This indicates that for the given dataset, this model might not have been able to capture the underlying patterns as effectively as other models. This model is also sensitive to noise or outliers in the data affecting its performance.
 
 
-Table _. Decision Tree classification results
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/1b0d7254-7f26-4075-9fa4-209fe6127427)
+Table 3. Decision Tree classification results
+
+
+
+
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d451d969-cf83-4cc7-98f8-9c5942c9ac44)
 
 
 
@@ -159,9 +184,10 @@ Random Forest is a group model that builds multiple decision trees and combines 
 Weaknesses:
 This model is a group of many decision trees and is more complex than a single decision tree. While it offers improved predictive performance, the interpretability of the model diminishes. Understanding the specific decision-making process of a Random Forest model becomes challenging due to the combined output of numerous trees. 
 
-Table _. Random Forest classification results
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/071cc037-d2d1-4229-aacf-4bc62f183598)
+Table 4. Random Forest classification results
 
+
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/08fc03f9-8495-4e6e-90aa-0dbe99648358)
 
 
 
@@ -181,9 +207,14 @@ Moreover, to improve performance, feature engineering is advised, involving the 
 # References
 
 [1] 	"World Health Organization," 20 December 2023. [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/malnutrition. [Accessed 11 January 2024].
+
 [2] 	"World Health Organization," [Online]. Available: https://www.who.int/health-topics/malnutrition#tab=tab_1. [Accessed 11 January 2024].
+
 [3] 	"Bread For The World," 23 August 2021. [Online]. Available: https://www.bread.org/article/global-malnutrition-fact-sheet-2021/. [Accessed 11 January 2024].
+
 [4] 	T. L. Ersado, "Causes of Malnutrition," in Combating Malnutrition throrugh Sustainable Approaches, IntechOpen, 2021. 
+
 [5] 	"NHS Inform," 21 November 2023. [Online]. Available: https://www.nhsinform.scot/illnesses-and-conditions/nutritional/malnutrition/#:~:text=tiredness%20or%20low%20energy%20levels,feelings%20of%20lethargy%20and%20depression . [Accessed 19 January 2024].
+
 [6] 	"UNICEF," UNICEF, 16 October 2019. [Online]. Available: https://www.unicef.org/philippines/press-releases/unicef-many-children-and-adolescents-philippines-are-not-growing-healthily. [Accessed 19 January 2024].
 

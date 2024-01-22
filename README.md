@@ -70,7 +70,7 @@ Assess the reliability and consistency of malnutrition data reporting across cou
 
 **5.	Model Evaluation**
 
-To assess the best forming modelling techniques between linear regression, logistic regression, and classification model.
+To assess the best forming modeling techniques between linear regression, logistic regression, and classification model.
 
 # Conceptual
 
@@ -209,10 +209,12 @@ Table 4. Random Forest classification results
 # Conclusion
 
 In conclusion, the exploration of malnutrition datasets has unveiled critical insights that a distinct correlation is evident between the classification of income and the prevalence of malnutrition. Generally, nations with lower income levels exhibit higher rates of stunting, wasting, and underweight in comparison to their higher-income counterparts. Specifically, low-income countries experience stunting rates that are five times more pronounced than those in high-income countries. However, the manifestation of overweight cases in high-income contexts adds a layer of complexity to the issue, necessitating attention to both undernutrition and overnutrition across all income strata.
+
 While strides have been made globally in mitigating stunting, the persistent challenge of wasting and the emergence of overweight create a nuanced and intricate scenario. Effectively addressing childhood malnutrition demands a comprehensive strategy that considers income disparities, access to nutritious food, healthcare provisions, and proper sanitation. Further investigation is imperative to discern the intricate factors steering these trends, allowing for the implementation of targeted interventions tailored to specific regions and income categories.
 
 
 In contrast, concerning the most effective model technique, Logistic Regression proved to be the superior model, surpassing others in terms of accuracy, precision, recall, and F1-score. Linear models, including Linear Regression, successfully captured clear relationships. Support Vector Machines faced challenges with class imbalances, while Decision Tree struggled with accuracy due to dataset complexity. Though more accurate, Random Forest traded off interpretability.
+
 Moreover, to improve performance, feature engineering is advised, involving the creation of new variables or extraction of meaningful information. Continuous optimization is crucial for sustained enhancement. The holistic analysis provides insights into global trends, country-specific variations, malnutrition prevalence, socio-economic correlations, and model evaluations. These findings inform evidence-based interventions and policies for addressing childhood malnutrition globally.
 
 # References

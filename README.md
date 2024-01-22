@@ -1,4 +1,4 @@
-# DATA VISUALIZATION: MALNUTRITION
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/0d45f41f-dafa-488c-b0c1-9978c546959a)# DATA VISUALIZATION: MALNUTRITION
 Submitted by: 
 Anonuevo, John Carlo S.
 
@@ -99,7 +99,9 @@ The limited performance on other variables suggests that linear regression might
 Table 1. Linear Regression Testing Results
 
 
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/982b86d1-4562-4e58-a01b-a8f5ffb600e3)
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d91018d9-06e0-4d80-be5b-31dcb1a1e4af)
+
+
 
 
 

@@ -1,4 +1,4 @@
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/0d45f41f-dafa-488c-b0c1-9978c546959a)# DATA VISUALIZATION: MALNUTRITION
+# DATA VISUALIZATION: MALNUTRITION
 Submitted by: 
 Anonuevo, John Carlo S.
 
@@ -107,7 +107,7 @@ Table 1. Linear Regression Testing Results
 
 
 
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/6eeeb13c-a01f-4a56-9ed6-649e31b3f28e)
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/d9d7634e-0f36-4641-9222-214c69c15857)
 
 
 

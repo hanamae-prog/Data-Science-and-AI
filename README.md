@@ -10,6 +10,11 @@ Librea, Mark Gelo M.
 
 Torres, Tyrone Bruce
 
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/ba0b3dd3-97da-4725-bf38-14dee704dbae)
+
+
+
+
 Submitted to: Engr. Aisa M. Labastilla 
 
 Date: January 23, 2023

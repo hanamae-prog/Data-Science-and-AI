@@ -116,8 +116,7 @@ Table 1. Linear Regression Testing Results
 
 
 
-
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/7affcf08-477e-4573-8dd7-ee723e75bf57)
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/7448990b-a7e6-4006-89d8-703a71f5541c)
 
 
 

@@ -131,6 +131,9 @@ May not handle complex relationships in the data as effectively. The decision to
 
 
 Table 2. Logistic Regression performance evaluation
+
+
+
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/56e24984-5469-4ab2-8938-da2a7d56230f)
 
 
@@ -146,6 +149,9 @@ Weaknesses:
 The SVM model encountered difficulties when dealing with class imbalances in the dataset. Class imbalances occur when the number of instances in different classes is not roughly equal. In the dataset, the model struggled with this imbalance and affected its performance.
 
 Table _. Support Vector Machine (SVM) classification results
+
+
+
 ![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/bb2c8e49-6a4b-4168-94e8-26ee9d5ef540)
 
 

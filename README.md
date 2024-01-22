@@ -10,7 +10,7 @@ Librea, Mark Gelo M.
 
 Torres, Tyrone Bruce
 
-![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/ba0b3dd3-97da-4725-bf38-14dee704dbae)
+![image](https://github.com/hanamae-prog/Data-Science-and-AI/assets/137803175/bd846148-6c2b-4416-bd27-bd152aec0808)
 
 
 

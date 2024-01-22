@@ -64,6 +64,7 @@ Explore the correlation between the income classification of countries and the p
 Assess the reliability and consistency of malnutrition data reporting across countries. Identify potential challenges and discrepancies in data collection and reporting methods and propose recommendations for improving the accuracy and comparability of global malnutrition statistics.
 
 **5.	Model Evaluation**
+
 To assess the best forming modelling techniques between linear regression, logistic regression, and classification model.
 
 # Conceptual

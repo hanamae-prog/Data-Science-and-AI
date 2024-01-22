@@ -13,6 +13,7 @@ Torres, Tyrone Bruce
 Submitted to: Engr. Aisa M. Labastilla 
 
 Date: January 23, 2023
+
 # INTRODUCTION
 Malnutrition is one of the prominent social issues across the globe. It is a condition that results from an inadequate or unbalanced diet, which has a significant social implication. Moreover, it can affect individuals, families, and communities, and it is often associated with broader socio-economic factors. It encompasses three primary categories of conditions: undernutrition, comprising wasting, stunting, and underweight; micronutrient-related malnutrition; and overweight, obesity, and diet-related issues. Malnutrition is a pervasive global issue, impacting individuals universally. In 2014, 462 million adults were underweight, and 1.9 billion were overweight or obese globally. Approximately 155 million children under 5 years experienced stunting, with 41 million being overweight or obese. Undernutrition is associated with 45% of deaths in children under 5 years old [1].
 
@@ -171,7 +172,7 @@ Table _. Random Forest classification results
 # Conclusion
 
 In conclusion, the exploration of malnutrition datasets has unveiled critical insights that a distinct correlation is evident between the classification of income and the prevalence of malnutrition. Generally, nations with lower income levels exhibit higher rates of stunting, wasting, and underweight in comparison to their higher-income counterparts. Specifically, low-income countries experience stunting rates that are five times more pronounced than those in high-income countries. However, the manifestation of overweight cases in high-income contexts adds a layer of complexity to the issue, necessitating attention to both undernutrition and overnutrition across all income strata.
-While strides have been made globally in mitigating stunting, the persistent challenge of wasting and the emergence of overweight create a nuanced and intricate scenario. Effectively addressing childhood malnutrition demands a comprehensive strategy that takes into account income disparities, access to nutritious food, healthcare provisions, and proper sanitation. Further investigation is imperative to discern the intricate factors steering these trends, allowing for the implementation of targeted interventions tailored to specific regions and income categories.
+While strides have been made globally in mitigating stunting, the persistent challenge of wasting and the emergence of overweight create a nuanced and intricate scenario. Effectively addressing childhood malnutrition demands a comprehensive strategy that considers income disparities, access to nutritious food, healthcare provisions, and proper sanitation. Further investigation is imperative to discern the intricate factors steering these trends, allowing for the implementation of targeted interventions tailored to specific regions and income categories.
 
 
 In contrast, concerning the most effective model technique, Logistic Regression proved to be the superior model, surpassing others in terms of accuracy, precision, recall, and F1-score. Linear models, including Linear Regression, successfully captured clear relationships. Support Vector Machines faced challenges with class imbalances, while Decision Tree struggled with accuracy due to dataset complexity. Though more accurate, Random Forest traded off interpretability.
